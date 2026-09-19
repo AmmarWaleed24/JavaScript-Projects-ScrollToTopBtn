@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  height: 5000px;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  padding: 8px;
+  border: none;
+  background-color: #ddd;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  display: none;
+}
